@@ -1,0 +1,15 @@
+name: Discraft
+version: ${project.version}
+main: com.archery.discraft.Discraft
+api-version: 1.16
+prefix: Discraft
+load: STARTUP
+authors: [Archery]
+description: Connects Minecraft and Discord together!
+website: https://github.com/ArcheryIsKey
+softdepend: [PlaceholderAPI, ProtocolLib]
+
+commands:
+  discraft:
+    description: The main command for Discraft.
+    permission: discraft.discraft

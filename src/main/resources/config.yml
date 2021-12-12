@@ -1,0 +1,16 @@
+# Get your bot token from https://discord.com/developers/applications/ > Your Bot > Bot > Copy Token.
+TOKEN: "Bot Token"
+
+# Text channels the bot should type in.
+# Most people would only put one channel, but if you want the bot to be in multiple servers, put both channels here.
+# Enable developer mode in discord and right-click a channel to get the channel ID.
+Channels:
+  -
+
+# Some features are available while depending on other plugins.
+# Discraft currently hooks into ProtocolLib and PlaceholderAPI.
+# If you'd like to disable either of those, write it here in the brackets.
+DisabledDependencies: []
+
+# This changes the name above player's heads to their linked discord account.
+ChangeNameTagToDiscord: true
